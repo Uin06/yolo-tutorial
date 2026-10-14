@@ -1,0 +1,2 @@
+run,video,computer,python,ultralytics,torch,model,device,imgsz,conf,tracker,track_buffer,mean_loop_fps,manual_observations,detected_observations,id_changes,misses,false_positives,notes
+baseline,single_person.avi,,,,,yolo11n.pt,cpu,640,0.1,bytetrack.yaml,30,,,,,,,

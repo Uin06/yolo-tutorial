@@ -1,0 +1,34 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.conda/
+.pytest_cache/
+
+# Local camera data, model downloads and run outputs
+outputs/
+runs/
+data/
+datasets/
+*.pt
+*.onnx
+*.engine
+*.avi
+*.mp4
+*.mov
+*.mkv
+
+# Machine-specific environment exports
+environment-lock.yml
+requirements-lock.txt
+
+# Local editor settings and credentials
+.vscode/
+.idea/
+.env
+.env.*
+
+# OS metadata
+.DS_Store
+Thumbs.db
